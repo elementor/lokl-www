@@ -86,13 +86,22 @@ The main Lokl shell script is designed to be POSIX-compliant and compatible with
 
 ##### FAQs
 
+ - what do I get with a Lokl WordPress site?
+   - latest official version of WordPress
+   - latest stable PHP version available for Alpine Linux  
+   - static site generator plugins
+   - some complimentary plugins installed, but not activated
+   - WP-CLI for managing your site via CLI
+   - scripts for easily backing up your whole site and database
+   - and more, which you can see within [Lokl's Docker image source code](https://github.com/lokl-dev/lokl)
+
  - can I use this in production?
 
 *I'd strongly dissuade you! Lokl is designed for your local WordPress development
  environment and expects you to publish your live site using a static site
- generator for WordPress (I include the most common ones within Lokl for you).
+ generator for WordPress (I include the most common ones within Lokl for you).*
 
-Running WordPress locally and publishing a static site to production hits the
+*Running WordPress locally and publishing a static site to production hits the
  three goals of security, cost and performance excellently. Lokl is designed for
  running WordPress on your own computer, comfortably isolated within its own
  container. This means I don't need to waste time on the usual security
@@ -116,9 +125,9 @@ Running WordPress locally and publishing a static site to production hits the
  your sites, which will be in the form of `http://localhost:4123`, with a
  unique port within the range of 4000-5000. This allows the super-simple
  one-line installation/management script to work without you needing to
- configure anything on your host operating system.
+ configure anything on your host operating system.*
 
-If you really needed to map a custom hostname locally to one of your Lokl sites,
+*If you really needed to map a custom hostname locally to one of your Lokl sites,
  you can definitely do it yourself, via some creative proxying, but it's not
  something I'm likely to want to help you with unless it would make sense for a
  lot of Lokl users.*
