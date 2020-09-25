@@ -26,8 +26,14 @@ jobs:
       - name: Install Wrangler
         run: sudo npm i @cloudflare/wrangler -g
 
+      - name: Download HTML Tidy
+        run: wget https://github.com/htacg/tidy-html5/releases/download/5.4.0/tidy-5.4.0-64bit.deb
+
+      - name: Install HTML Tidy
+        run: sudo dpkg -i tidy-5.4.0-64bit.deb
+
       - name: Build
-        run: hugo
+        run: export PATH=$PATH:$(pwd)/bin && hugo --gc && find public -name '*.html' -type f -print -exec tidy -mq --tidy-mark no --wrap 0 --indent auto --indent-spaces 2 --quiet yes  '{}' \;
 
       - name: config wrangler
         run: CF_API_TOKEN=${{ secrets.CF_API_TOKEN }} wrangler publish

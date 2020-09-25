@@ -8,9 +8,6 @@ This repository holds the [Lokl website](https://lokl.dev) content
 
  - [Hugo](https://gohugo.io) static site generator does the heavy lifting
  - [Accessible Minimalism hugo theme](https://github.com/leonstafford/accessible-minimalism-hugo-theme) keeps it fast and friendly
-
-TODO:
-
  - [HTML Tidy](https://github.com/htacg/tidy-html5) to beautify things
 
 And, probably, some shell scripts, if not already then eventually!
