@@ -5,17 +5,4 @@ theme = "accessible-minimalism"
 disableHugoGeneratorInject = true
 enableRobotsTXT = true
 
-[menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "Docs"
-    url = "/docs/"
-    weight = 2
-  [[menu.main]]
-    name = "Sitemap"
-    url = "/sitemap/"
-    weight = 3
 

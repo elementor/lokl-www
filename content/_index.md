@@ -17,7 +17,7 @@
 
 #### Demo
 
-[preview of Lokl without captions or audio description](https://youtu.be/MuWIXLUQOF0)
+[Video preview of Lokl without captions or audio description](https://youtu.be/MuWIXLUQOF0)
 
 #### How it works
 
