@@ -92,6 +92,8 @@ The main Lokl shell script is designed to be POSIX-compliant and compatible with
    - static site generator plugins
    - some complimentary plugins installed, but not activated
    - WP-CLI for managing your site via CLI
+   - phpMyAdmin auto logged-in at `/phpmyadmin/`
+   - WP admin with user & password hints at `/wp-admin/` *(admin/admin)*
    - scripts for easily backing up your whole site and database
    - and more, which you can see within [Lokl's Docker image source code](https://github.com/lokl-dev/lokl)
 
