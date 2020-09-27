@@ -10,7 +10,7 @@
  - Ensure Docker and cURL are installed
  - Copy and paste this one line to your terminal:
 
-`\sh -c "$(curl -sSl 'https://lokl.dev/go?v=2')"`
+`\sh -c "$(curl -sSl 'https://lokl.dev/go?v=3')"`
 
  - Follow the simple wizard to create a new site or manage existing ones
  - Publish your live site using built-in static site generator plugins & tools
