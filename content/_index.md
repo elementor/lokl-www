@@ -8,12 +8,30 @@
 ### Getting started with Lokl
 
  - Ensure Docker and cURL are installed
- - Copy and paste this one line to your terminal:
+ - Copy and paste this one line to your terminal :
 
-`\sh -c "$(curl -sSl 'https://lokl.dev/go?v=4')"`
+`sh -c "$(curl -sSl 'https://lokl.dev/go?v=4')"` 
 
  - Follow the simple wizard to create a new site or manage existing ones
  - Publish your live site using built-in static site generator plugins & tools
+
+### Safety
+
+Running arbitrary code on your computer is never safe.
+
+You can verify this scripts contents/trust by:
+
+ - [viewing in browser](/go)
+ - [viewing in GitHub](https://github.com/leonstafford/lokl-cli/blob/master/cli.sh)
+
+You can also download the script and run it locally:
+
+ - `curl https://lokl.dev/go --output lokl-cli`
+ - `sh lokl-cli`
+
+The copy-paste method of running scripts is still used by some major projects, such as [Homebrew](https://brew.sh), [RVM](https://rvm.io), [Docker](https://get.docker.com).
+
+I like the ease of use of this method for new users, but I feel responsible to inform about the security considerations.
 
 #### Demo
 
@@ -112,8 +130,10 @@ The main Lokl shell script is designed to be POSIX-compliant and compatible with
 
  - does Lokl work on the BSDs?
 
-*No, as Docker won't run on them. If you have some cool hack to allow Docker to
+*No(not yet), as Docker won't run on them. If you have some cool hack to allow Docker to
  run on any of the BSDs, then it should work and I'd love to hear from you!*
+
+**Update: I've created my own feature-request to get this working for my preferred OS, OpenBSD. The lokl-cli wizard should be able to drive vmm(8) in place of Docker and provide the same user experience, although this is a very small target audience, who usually have their own geeky ways to do things. If you're a FreeBSD or other BSD user who wants to see it done via bhyve or such, reach out to me, would be fun to hack away on!**
 
  - why aren't Lokl sites served with TLS over https?
 
