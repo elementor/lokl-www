@@ -15,11 +15,13 @@
  - Follow the simple wizard to create a new site or manage existing ones
  - Publish your live site using built-in static site generator plugins & tools
 
+{{< youtube id="Eq9fbhDFhrs" autoplay="true" title="Intro to Lokl video without captions. Has partial audio description" >}}
+
 ### Safety
 
 Running arbitrary code on your computer is never safe.
 
-You can verify this scripts contents/trust by:
+You can verify this script's contents/trust by:
 
  - [viewing in browser](/cli-5.0.0-rc1)
  - [viewing in GitHub](https://github.com/leonstafford/lokl-cli/blob/master/cli.sh)
@@ -32,10 +34,6 @@ You can also download the script and run it locally:
 The copy-paste method of running scripts is still used by some major projects, such as [Homebrew](https://brew.sh), [RVM](https://rvm.io), [Docker](https://get.docker.com).
 
 I like the ease of use of this method for new users, but I feel responsible to inform about the security considerations.
-
-#### Demo
-
-[Video preview of Lokl without captions or audio description](https://youtu.be/MuWIXLUQOF0)
 
 #### How it works
 
