@@ -10,7 +10,7 @@
  - Ensure Docker and cURL are installed
  - Copy and paste this one line to your terminal :
 
-`sh -c "$(curl -sSl 'https://lokl.dev/go?v=4')"` 
+`sh -c "$(curl -sSl 'https://lokl.dev/cli-5.0.0-rc1')"` 
 
  - Follow the simple wizard to create a new site or manage existing ones
  - Publish your live site using built-in static site generator plugins & tools
@@ -21,12 +21,12 @@ Running arbitrary code on your computer is never safe.
 
 You can verify this scripts contents/trust by:
 
- - [viewing in browser](/go)
+ - [viewing in browser](/cli-5.0.0-rc1)
  - [viewing in GitHub](https://github.com/leonstafford/lokl-cli/blob/master/cli.sh)
 
 You can also download the script and run it locally:
 
- - `curl https://lokl.dev/go --output lokl-cli`
+ - `curl https://lokl.dev/cli-5.0.0-rc1 --output lokl-cli`
  - `sh lokl-cli`
 
 The copy-paste method of running scripts is still used by some major projects, such as [Homebrew](https://brew.sh), [RVM](https://rvm.io), [Docker](https://get.docker.com).
@@ -60,7 +60,7 @@ These take the pre-built Lokl Docker image and apply site-specific
 **Lokl shell scripts**
 
 This is the entrypoint and main control point for Lokl. It's the POSIX-compliant
- shell script available at `https://lokl.dev/go` or downloadable to run as a
+ shell script available at `https://lokl.dev/cli-5.0.0-rc1` or downloadable to run as a
  local script. This script provides you with an easy to use CLI (command line
  interface) wizard, that responds to your input and interacts with your
  WordPress container(s) in the background.
@@ -99,7 +99,7 @@ If you need help installing cURL for your environment, please ask on my
 
 The main Lokl shell script is designed to be POSIX-compliant and compatible with
  the most common shells/terminals you are likely to be running. If you encounter
- an issue running Lokl in your funky shell, please [file an issue](https://github.com/lokl-dev/go).
+ an issue running Lokl in your funky shell, please [file an issue](https://github.com/leonstafford/lokl-cli).
 
 
 ##### FAQs
@@ -113,7 +113,7 @@ The main Lokl shell script is designed to be POSIX-compliant and compatible with
    - phpMyAdmin auto logged-in at `/phpmyadmin/`
    - WP admin with user & password hints at `/wp-admin/` *(admin/admin)*
    - scripts for easily backing up your whole site and database
-   - and more, which you can see within [Lokl's Docker image source code](https://github.com/lokl-dev/lokl)
+   - and more, which you can see within [Lokl's Docker image source code](https://github.com/leonstafford/lokl)
 
  - can I use this in production?
 
