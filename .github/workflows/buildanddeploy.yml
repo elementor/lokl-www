@@ -24,7 +24,7 @@ jobs:
         run: sudo dpkg -i hugo_${{ env.HUGO_VERSION }}_Linux-64bit.deb
 
       - name: Install Wrangler
-        run: sudo npm i @cloudflare/wrangler -g
+        run: sudo npm install @cloudflare/wrangler -g --unsafe-perm=true --allow-root
 
       - name: Download HTML Tidy
         run: wget https://github.com/htacg/tidy-html5/releases/download/5.4.0/tidy-5.4.0-64bit.deb
