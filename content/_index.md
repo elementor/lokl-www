@@ -10,7 +10,7 @@
  - Ensure Docker and cURL are installed
  - Copy and paste this one line to your terminal :
 
-`sh -c "$(curl -sSl 'https://lokl.dev/cli-5.0.0-rc1')"` 
+`sh -c "$(curl -sSl 'https://lokl.dev/cli-5.0.0-rc2')"` 
 
  - Follow the simple wizard to create a new site or manage existing ones
  - Publish your live site using built-in static site generator plugins & tools
@@ -23,12 +23,12 @@ Running arbitrary code on your computer is never safe.
 
 You can verify this script's contents/trust by:
 
- - [viewing in browser](/cli-5.0.0-rc1)
+ - [viewing in browser](/cli-5.0.0-rc2)
  - [viewing in GitHub](https://github.com/leonstafford/lokl-cli/blob/master/cli.sh)
 
 You can also download the script and run it locally:
 
- - `curl https://lokl.dev/cli-5.0.0-rc1 --output lokl-cli`
+ - `curl https://lokl.dev/cli-5.0.0-rc2 --output lokl-cli`
  - `sh lokl-cli`
 
 The copy-paste method of running scripts is still used by some major projects, such as [Homebrew](https://brew.sh), [RVM](https://rvm.io), [Docker](https://get.docker.com).
@@ -58,7 +58,7 @@ These take the pre-built Lokl Docker image and apply site-specific
 **Lokl shell scripts**
 
 This is the entrypoint and main control point for Lokl. It's the POSIX-compliant
- shell script available at `https://lokl.dev/cli-5.0.0-rc1` or downloadable to run as a
+ shell script available at `https://lokl.dev/cli-5.0.0-rc2` or downloadable to run as a
  local script. This script provides you with an easy to use CLI (command line
  interface) wizard, that responds to your input and interacts with your
  WordPress container(s) in the background.
