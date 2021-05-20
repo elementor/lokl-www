@@ -33,5 +33,7 @@ jobs:
         run: export PATH=$PATH:$(pwd)/bin && hugo --gc && find public -name '*.html' -type f -print -exec tidy -mq --tidy-mark no --wrap 0 --indent auto --indent-spaces 2 --quiet yes  '{}' \;
 
       - uses: cloudflare/wrangler-action@1.2.0
+        env:
+          USER: root
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
