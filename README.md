@@ -21,3 +21,4 @@ The site is currently served from CloudFlare, using their Workers Sites. A
 
  - [Validates to XHTML 1.0 Strict](https://validator.w3.org/check?uri=https%3A%2F%2Flokl.dev)
  - [Avoids a11y errors](https://wave.webaim.org/report#/https://lokl.dev/)
+
