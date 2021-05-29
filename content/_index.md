@@ -8,7 +8,7 @@
 ### Getting started with Lokl
 
  - Ensure Docker and cURL are installed
- - Copy and paste this one line to your terminal :
+ - Copy and paste this one line to your terminal:
 
 `sh -c "$(curl -sSl 'https://lokl.dev/cli-5.0.0')"`
 
