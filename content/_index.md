@@ -25,7 +25,7 @@ Currently, these allow specifying directories from your host machine to mount wi
 
 Future enhancements to this templating will allow for things like specifying different sets of plugins/themes to auto-install in new Lokl sites.
 
-An example site template file is located within this repository, named `site-template-example.lokl`. There are comments in this template, describing how to use it, also described here:
+An example site template file is located within the [lokl-cli GitHub repository](https://github.com/leonstafford/lokl-cli), named `site-template-example.lokl`. There are comments in this template, describing how to use it, also described here:
 
  - make a `templates` directory inside a `.lokl` directory in your `$HOME` folder.
 
